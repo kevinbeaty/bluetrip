@@ -86,11 +86,10 @@ ol ol, ul ol { margin-left: 2.5em; }
 form div { margin-bottom: .8em; }
 
 /*** COLORS ***/
-a:link { text-decoration: underline; color: #36c; }
-a:visited { text-decoration: underline; color: #99c; }
-a:hover { text-decoration: underline; color: #c33; }
-a:active, a:focus { text-decoration: underline; color: #000; }
-code, pre { color: #c33; } /*** very optional, but still useful. W3C uses about the same colors for codes ***/
+a:link { text-decoration: none; color: #36c; }
+a:visited { text-decoration: none; color: #99c; }
+a:hover { text-decoration: none; color: #c33; }
+a:active, a:focus { text-decoration: none; color: #000; }
 
 /*** 24 COLUMN GRID ***/
 .container {width:950px;margin:0 auto;}
@@ -262,7 +261,10 @@ a[href$=".xls"]   { background-image: url(../images/icons/xls.png); }
 a[href$=".rss"],
 a[href$=".rdf"]   { background-image: url(../images/icons/feed.png); }
 a[href^="aim:"]   { background-image: url(../images/icons/im.png); }
-a[href^="http://yourwebsite.com"] { background:none; padding:0; margin:0; }
+a[href^="http://simplectic.com"],
+a[href^="http://www.simplectic.com"],
+a[href^="http://www.simplectic.com"],
+a[href^="http://localhost"] { background:none; padding:0; margin:0; }
 
 /*** TEXT CLASSES ***/
 .small {font-size:.8em;margin-bottom:1.875em;line-height:1.875em;}
@@ -270,7 +272,6 @@ a[href^="http://yourwebsite.com"] { background:none; padding:0; margin:0; }
 .hide {display:none;}
 .quiet {color:#666;}
 .loud {color:#000;}
-.highlight {background:#ff0;}
 .top {margin-top:0;padding-top:0;}
 .bottom {margin-bottom:0;padding-bottom:0;}
 .thin {font-weight: lighter;}
