@@ -261,9 +261,6 @@ a[href$=".xls"]   { background-image: url(../images/icons/xls.png); }
 a[href$=".rss"],
 a[href$=".rdf"]   { background-image: url(../images/icons/feed.png); }
 a[href^="aim:"]   { background-image: url(../images/icons/im.png); }
-a[href^="http://simplectic.com"],
-a[href^="http://www.simplectic.com"],
-a[href^="http://www.simplectic.com"],
 a[href^="http://localhost"] { background:none; padding:0; margin:0; }
 
 /*** TEXT CLASSES ***/
